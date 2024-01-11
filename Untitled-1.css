@@ -1,0 +1,29 @@
+/* Reset some default browser styles */
+body, h1, h2, h3, p, label, button {
+    margin: 0;
+    padding: 0;
+    color: white; /* Set text color to contrast with background */
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-image: url('your-image-url.jpg'); /* Replace 'your-image-url.jpg' with your image */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.8); /* Background color with transparency */
+}
+
+h1 {
+    text-align: center;
+    margin-top: 20px;
+}
+
+/* Other styles for your content */
+/* ... */
